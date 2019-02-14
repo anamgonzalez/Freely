@@ -2,8 +2,12 @@
 Freely is a web based geolocation application that lets the user find free events near their current location. It uses EventBrite and MapBox API's. The application has a front-end of HTML, CSS, JavaScript, React. The backend consists of ruby on rails.
 
 # Getting Started
-Simply download the zip file to get started. In the command line type 
-`bundle install` 
+Simply clone the respository file to get started. In the command line type 
+`bundle install`
+`yarn install`
+`rails db:drop db:create db:migrate db:seed`
+ open a PostgreSQL server and 
+ run `rails s` in the terminal
 
 
 # Prerequisites
